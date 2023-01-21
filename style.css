@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Merriweather:wght@300;400;700&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    font-family: 'Epilogue', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(196, 236, 223);
+}
+.background-rectangle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-top: 60px;
+    border-radius: 8px;
+    position: fixed;
+}
+.sign-up{
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-left: 50px;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+ 
+}
+.sign-up h3{
+    padding-bottom: 15px;
+
+}
+.sign-up input{
+    height: 35px;
+    width: 200px;
+    align-items: center;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-color: D9D9D9;
+
+}
+.button-contents{
+    display: flex;
+    flex-direction: row;
+
+}
+.button{
+    height: 35px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: white;
+    border: none;  
+    font-size: 10px;
+    font-weight:600; 
+
+}
+.pswd{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 10px;
+    font-weight:600;
+}
+.texts{
+    font-size: 10px;
+    font-weight:600;
+}
+.bottom{
+    padding-top: 10px;
+    padding-left: 30px;
+
+}
+.bottom a{
+    text-align: center;
+    padding-left: 50px;
+}
