@@ -14,31 +14,30 @@ font-family: 'Poppins', sans-serif;
 body{
     background-color: rgb(196, 236, 223);
 }
+.parent{
+    position: relative;
+}
 .background-rectangle{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: 400px;
-    width: 200px;
+    width: 250px;
     background-color: blueviolet;
     margin-top: 60px;
     border-radius: 8px;
-    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
 }
 .sign-up{
-    margin-top: 60px;
+    margin-top: 50px;
     padding-top: 20px;
     padding-left: 50px;
     background-color: white;
     height: 300px;
     width: 300px;
     border-radius: 8px;
-    margin-left: auto;
+    margin-left: 400px;
     margin-right: auto;
-    position: relative;
-    z-index: 1;
-    align-items: center;
- 
+    position: absolute;
+    top: 0px;
 }
 .sign-up h3{
     padding-bottom: 15px;
@@ -67,7 +66,13 @@ body{
     border: none;  
     font-size: 10px;
     font-weight:600; 
+    cursor: pointer;
 
+}
+button:hover{
+    background-color: white;
+    color: blueviolet;
+    border-style: solid;
 }
 .pswd{
     padding-top: 10px;
