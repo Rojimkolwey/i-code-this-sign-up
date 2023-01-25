@@ -25,19 +25,21 @@ body{
     border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 .sign-up{
-    margin-top: 50px;
+    margin-top: 110px;
     padding-top: 20px;
     padding-left: 50px;
     background-color: white;
     height: 300px;
     width: 300px;
     border-radius: 8px;
-    margin-left: 400px;
+    margin-left: 410px;
     margin-right: auto;
     position: absolute;
     top: 0px;
+    position: fixed;
 }
 .sign-up h3{
     padding-bottom: 15px;
